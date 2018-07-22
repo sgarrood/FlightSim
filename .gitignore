@@ -1,0 +1,13 @@
+
+dox/Doxyfile
+*.html
+*.png
+*.css
+*.js
+*.tex
+*.eps
+*.sty
+*.bat
+dox/latex/Makefile
+latex/Makefile
+Doxyfile
