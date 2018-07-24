@@ -20,9 +20,18 @@ class CAeroModelCoeffLift : public CAeroModelCoeff
 	// Operations
 	public:
 		/**
-		 * Compute the lift coefficient.
+		 * Compute the total lift coefficient.
+		 *
+		 * @return Total lift coefficient
 		 */
-		virtual BOOL compute();
+		virtual FLOAT compute();
+
+		/**
+		 * Get the simplified lift coefficient.
+		 *
+		 * @return Basic + Dynamic lift coefficient.
+		 */
+		virtual FLOAT getClStar();
 
 	// Implementation
 	protected:
